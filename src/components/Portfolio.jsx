@@ -15,20 +15,25 @@ const Portfolio = () => {
       src: advice_generator,
       codeLink:
         "https://github.com/khareenp/frontend_portfolio/tree/main/advice-generator",
-      demoLink: "",
     },
 
     {
       id: 2,
       src: rating,
+      codeLink:
+        "https://github.com/khareenp/frontend_projects/tree/main/rating",
     },
     {
       id: 3,
       src: countries,
+      codeLink:
+        "https://github.com/khareenp/frontend_projects/tree/main/countries-app",
     },
     {
       id: 4,
       src: movieland,
+      codeLink:
+        "https://github.com/khareenp/frontend_projects/tree/main/movie-land",
     },
     {
       id: 5,
@@ -60,7 +65,7 @@ const Portfolio = () => {
           <p className="py-6">Checkout some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -68,12 +73,11 @@ const Portfolio = () => {
                 className="rounded-md hover:scale-105 duration-200 "
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
-                  Code
-                </button>
+                <a href={codeLink}>
+                  <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
