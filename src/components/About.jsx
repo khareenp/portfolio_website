@@ -26,9 +26,9 @@ const About = () => {
           have some experience with VueJS as well. For DBMS I have experience in
           both SQL or NOSQL databases using MongoDB and Postgresql. For
           serverside development I have experience in NodeJS, Golang and I am
-          currently learning Springbot. While some of these are not technologies
-          I use everyday I am quick to learn and adapt to the needs of the
-          project.
+          currently learning Springboot. While some of these are not
+          technologies I use everyday I am quick to learn and adapt to the needs
+          of the project.
         </p>
       </div>
     </div>
