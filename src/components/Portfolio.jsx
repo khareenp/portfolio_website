@@ -1,9 +1,7 @@
 import React from "react";
 import advice_generator from "../assets/portfolio/advice_generator.png";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import countries from "../assets/countries.png";
 import movieland from "../assets/movieland.png";
 import rating from "../assets/ratingapp.png";
@@ -42,14 +40,6 @@ const Portfolio = () => {
     {
       id: 6,
       src: arrayDestruct,
-    },
-    {
-      id: 7,
-      src: installNode,
-    },
-    {
-      id: 8,
-      src: reactWeather,
     },
   ];
   return (
