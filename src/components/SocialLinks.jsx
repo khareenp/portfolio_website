@@ -14,7 +14,7 @@ export const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/khareen-francis-proverbs-57bb948a/",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md bg-sky-400",
     },
     {
       id: 2,
@@ -25,6 +25,7 @@ export const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/khareenp",
+      style: "bg-gray-50",
     },
     {
       id: 3,
@@ -35,6 +36,7 @@ export const SocialLinks = () => {
         </>
       ),
       href: "mailto:foo@gmail.com",
+      style: "bg-green-400",
     },
     {
       id: 4,
@@ -44,8 +46,8 @@ export const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/public/resume.pdf",
-      style: "rounded-br-md",
+      href: "/resume.pdf",
+      style: "rounded-br-md bg-orange-400",
       download: true,
     },
   ];
@@ -63,7 +65,7 @@ export const SocialLinks = () => {
           >
             <a
               href={href}
-              className="flex justify-between items-center w-full text-gray300 "
+              className="flex justify-between items-center w-full text-gray-800 "
               download={download}
               target="_blank" //allow download new tab
               rel="noreferrer"
