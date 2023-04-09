@@ -2,10 +2,11 @@ import React from "react";
 import advice_generator from "../assets/portfolio/advice_generator.png";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import countries from "../assets/countries.png";
+import movieland from "../assets/movieland.png";
+import rating from "../assets/ratingapp.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -16,17 +17,18 @@ const Portfolio = () => {
         "https://github.com/khareenp/frontend_portfolio/tree/main/advice-generator",
       demoLink: "",
     },
+
     {
       id: 2,
-      src: arrayDestruct,
+      src: rating,
     },
     {
       id: 3,
-      src: reactParallax,
+      src: countries,
     },
     {
       id: 4,
-      src: navbar,
+      src: movieland,
     },
     {
       id: 5,
@@ -34,10 +36,14 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: installNode,
+      src: arrayDestruct,
     },
     {
       id: 7,
+      src: installNode,
+    },
+    {
+      id: 8,
       src: reactWeather,
     },
   ];
@@ -54,7 +60,7 @@ const Portfolio = () => {
           <p className="py-6">Checkout some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -63,7 +69,7 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
-                  Demo
+                  <a href="#">Demo</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
                   Code
