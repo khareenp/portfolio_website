@@ -13,21 +13,21 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-          asperiores illo aperiam iusto quia est, quidem magni illum dolor cum
-          ipsa adipisci nam a ut nemo, fugit dolorem veritatis dolores
-          voluptatibus! Asperiores natus debitis nam dicta facere ex id magnam
-          quisquam eaque suscipit. At excepturi, dolor tempora id architecto
-          alias.
+          Passionate Software Engineer with 3 years of experience in developing
+          web applications. Skilled at writing clear, concise code that is easy
+          to maintain and troubleshoot. Experienced in working primarily in
+          small teams across multiple projects and companies. Able to work
+          independently of remote locations or in office environments as needed
+          by the company.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae a
-          consequatur dignissimos blanditiis enim fugit quidem minus doloribus,
-          sapiente nesciunt magnam ratione quibusdam amet voluptatum, et libero
-          aperiam? Sit, expedita. Fugiat nesciunt esse consequuntur voluptas.
-          Eligendi repellat tenetur tempore iste est quae et dicta, voluptatibus
-          architecto, hic vitae adipisci dolor?
+          My frontend technology of choice is ReactJS but I do have some
+          experience with VueJS as well. For DBMS I have experience in both SQL
+          or NOSQL databases using MongoDB and Postgresql. For serverside
+          development I have experience in NodeJS, Golang and I am currently
+          learning Springbot. While some of these are not technologies I use
+          everyday I am quick to learn and adapt to the needs of the project.
         </p>
       </div>
     </div>
