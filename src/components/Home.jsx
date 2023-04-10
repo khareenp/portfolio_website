@@ -15,9 +15,11 @@ const Home = () => {
             I'm a Software Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 3 years of experience building and desgining software.
-            Currently, I love to work on web applications using technologies
-            like React, and Tailwind.
+            Hi! My name is Khareen Francis Proverbs and I am a Software
+            Engineer. I am a recent Software Engineering grad from The
+            University of The West Indies at Cave Hill in Barbados. Currently, I
+            love to work on web applications using technologies like React, and
+            Tailwind.
           </p>
 
           <div>
