@@ -13,22 +13,24 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Passionate Software Engineer with 3 years of experience in developing
-          web applications. Skilled at writing clear, concise code that is easy
-          to maintain and troubleshoot. Experienced in working primarily in
-          small teams across multiple projects and companies. Able to work
+          I am a recent Software Engineering grad from The University of The
+          West Indies at Cave Hill in Barbados. Currently, I love to work on web
+          applications both design and development. This includes all phases of
+          the SDLC. I have approximately 3 years of experience in developing web
+          applications. Skilled at writing clear, concise code that is easy to
+          maintain and troubleshoot. Experienced in working primarily in small
+          teams across multiple projects and companies. Able to work
           independently of remote locations or in office environments as needed
           by the company.
         </p>
         <br />
         <p className="text-xl">
-          My frontend technologies of choice is ReactJS amd TailwindCSS but I do
-          have some experience with VueJS as well. For DBMS I have experience in
-          both SQL or NOSQL databases using MongoDB and Postgresql. For
-          serverside development I have experience in NodeJS, Golang and I am
-          currently learning Springboot. While some of these are not
-          technologies I use everyday I am quick to learn and adapt to the needs
-          of the project.
+          My frontend technologies of choice are React and TailwindCSS . For
+          DBMS I have experience in both SQL or NOSQL databases using MongoDB
+          and Postgresql. For serverside development I have experience in
+          NodeJS, Golang and I am currently learning Springboot. While some of
+          these are not technologies I use everyday I am quick to learn and
+          adapt to the needs of the project.
         </p>
       </div>
     </div>
