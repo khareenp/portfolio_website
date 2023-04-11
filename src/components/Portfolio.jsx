@@ -9,7 +9,7 @@ const Portfolio = () => {
       id: 1,
       src: countries,
       codeLink: "https://github.com/khareenp/countriesApp",
-      demoLink: "",
+      demoLink: "https://countrykp.netlify.app/",
     },
     {
       id: 2,
