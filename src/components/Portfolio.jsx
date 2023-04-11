@@ -8,8 +8,8 @@ const Portfolio = () => {
     {
       id: 1,
       src: countries,
-      codeLink:
-        "https://github.com/khareenp/frontend_projects/tree/main/countries-app",
+      codeLink: "https://github.com/khareenp/countriesApp",
+      demoLink: "",
     },
     {
       id: 2,
