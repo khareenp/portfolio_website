@@ -16,12 +16,14 @@ const Portfolio = () => {
       src: movieland,
       codeLink:
         "https://github.com/khareenp/frontend_projects/tree/main/movie-land",
+      demoLink: "https://moielandkp.netlify.app/",
     },
     {
       id: 3,
       src: foodApp,
       codeLink:
         "https://github.com/khareenp/frontend_projects/tree/main/eat-better",
+      demoLink: "https://besteatskp.netlify.app/",
     },
   ];
   return (
@@ -37,7 +39,7 @@ const Portfolio = () => {
           <p className="py-6">Checkout some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, codeLink }) => (
+          {portfolios.map(({ id, src, codeLink, demoLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -48,6 +50,11 @@ const Portfolio = () => {
                 <a href={codeLink}>
                   <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
                     Code
+                  </button>
+                </a>
+                <a href={demoLink}>
+                  <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
+                    Demo
                   </button>
                 </a>
               </div>
