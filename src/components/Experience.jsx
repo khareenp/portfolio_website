@@ -7,6 +7,7 @@ import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import postgres from "../assets/postgres.png";
+import spring from "../assets/spring.png";
 
 const Experience = () => {
   const techs = [
@@ -52,6 +53,12 @@ const Experience = () => {
       src: postgres,
       title: "Postgres",
       style: "shadow-sky-700",
+    },
+    {
+      id: 8,
+      src: spring,
+      title: "Spring Boot",
+      style: "shadow-green-700",
     },
   ];
 
