@@ -12,14 +12,13 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full px-4">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Software Engineer
+            I'm a Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Hi! My name is Khareen Francis Proverbs and I am a Software
-            Engineer. I am a recent Software Engineering grad from The
-            University of The West Indies at Cave Hill in Barbados. Currently, I
-            love to work on web applications using technologies like React, and
-            Tailwind.
+            Hi! My name is Khareen Francis Proverbs and I am a Web Developer. I
+            am a recent Software Engineering grad from The University of The
+            West Indies at Cave Hill in Barbados. Currently, I love to work on
+            web applications using technologies like React, and Tailwind.
           </p>
 
           <div>
