@@ -1,7 +1,7 @@
 import React from "react";
 import advice_generator from "../assets/portfolio/advice_generator.png";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import foodApp from "../assets/portfolio/foodApp.png";
 import countries from "../assets/countries.png";
 import movieland from "../assets/movieland.png";
 import rating from "../assets/ratingapp.png";
@@ -35,7 +35,9 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: reactSmooth,
+      src: foodApp,
+      codeLink:
+        "https://github.com/khareenp/frontend_projects/tree/main/eat-better",
     },
     {
       id: 6,
