@@ -14,15 +14,13 @@ const Portfolio = () => {
     {
       id: 2,
       src: movieland,
-      codeLink:
-        "https://github.com/khareenp/frontend_projects/tree/main/movie-land",
+      codeLink: "https://github.com/khareenp/movieLand",
       demoLink: "https://moielandkp.netlify.app/",
     },
     {
       id: 3,
       src: foodApp,
-      codeLink:
-        "https://github.com/khareenp/frontend_projects/tree/main/eat-better",
+      codeLink: "https://github.com/khareenp/foodApp",
       demoLink: "https://besteatskp.netlify.app/",
     },
   ];
