@@ -1,47 +1,27 @@
 import React from "react";
-import advice_generator from "../assets/portfolio/advice_generator.png";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import foodApp from "../assets/portfolio/foodApp.png";
 import countries from "../assets/countries.png";
 import movieland from "../assets/movieland.png";
-import rating from "../assets/ratingapp.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: advice_generator,
-      codeLink:
-        "https://github.com/khareenp/frontend_portfolio/tree/main/advice-generator",
-    },
-
-    {
-      id: 2,
-      src: rating,
-      codeLink:
-        "https://github.com/khareenp/frontend_projects/tree/main/rating",
-    },
-    {
-      id: 3,
       src: countries,
       codeLink:
         "https://github.com/khareenp/frontend_projects/tree/main/countries-app",
     },
     {
-      id: 4,
+      id: 2,
       src: movieland,
       codeLink:
         "https://github.com/khareenp/frontend_projects/tree/main/movie-land",
     },
     {
-      id: 5,
+      id: 3,
       src: foodApp,
       codeLink:
         "https://github.com/khareenp/frontend_projects/tree/main/eat-better",
-    },
-    {
-      id: 6,
-      src: arrayDestruct,
     },
   ];
   return (
